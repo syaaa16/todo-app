@@ -88,7 +88,7 @@ const input = document.getElementById('input')
         renderTodos()
     })
     filterIncompleteBtn.addEventListener('click', function(){
-        currentFilter = 'incompleted'
+        currentFilter = 'incomplete'
         renderTodos()
     })
 
@@ -119,5 +119,6 @@ const input = document.getElementById('input')
     renderTodos()
   })
   
+
 
   renderTodos()
